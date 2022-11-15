@@ -1,0 +1,143 @@
+*
+{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'arial', sans-serif;
+}
+section
+{
+ position: relative;
+ width: 100%;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ min-height: 100vh;
+} 
+section header
+{
+   position: absolute;
+   top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;        
+} 
+section header ul
+{
+  display: flex;
+  justify-content: center;
+   align-items: center;
+} 
+section header ul li 
+{
+    list-style: none;  
+    margin-left: 20px;
+}
+section header ul li a
+{
+     color: rgb(233, 233, 233);
+     text-decoration: none;
+     font-size: 13px;
+}
+section header ul li button
+{
+   background-color: #4584ef;  
+   border: none; 
+   outline: none;
+   padding: 8px 14px;
+   color: #fff;
+   font-size: 14px;
+   font-weight: 700;
+   border-radius: 4px;
+   cursor: pointer;
+
+ 
+}
+
+ul
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+/*.googletext1{
+        width: 30%;
+        display: block;
+        margin: 0px auto;
+}*/
+.googletext2{
+         width: 400px;
+         position: absolute;
+         top: 200px;
+         left: 50%;
+         transform: translate(-50%,-50%);
+}
+
+
+#searchbarcontainer{
+  margin-top: 20px;
+  text-align: center;
+  color: white;
+}
+
+#searchbar {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    outline: 0;
+    width: 350px;
+    border-radius: 15px;
+    border: 1px solid #8d8d8d;
+}
+
+   
+  
+   #buttons {
+      margin-top: 30px;
+      display: flex;
+      justify-content: center;
+   }  
+
+   .button {
+      margin-left: 20px;
+      margin-right: 20px;
+      padding: 5px 10px;
+      cursor: pointer;
+      background: rgb(61, 61, 61);
+      border-radius: 3px;
+   }
+   
+ 
+  
+
+
+body, html {
+   height: 100%;
+   margin: 0;
+   padding: 0;
+}
+html, body {
+   min-width: 400px;
+}
+body, input, button {
+   font-size: 14px;
+   font-family: arial,sans-serif;
+   color: #1a1818;
+}
+body {
+   background: #1d1d1d;
+}
+
+body {
+   display: block;
+   margin: 8px;
+}
+
+ul
+
+body{
+   margin: 0px;
+   padding: 0px;
+}
+ 
+

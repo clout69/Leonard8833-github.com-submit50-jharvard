@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+         
+         <title>image search</title>
+    </head>
+    <body> 
+
+    </body>  
+    
+
+    <section>
+        <header> 
+             <ul>
+               <li><a href="index.html">google search</a></li>
+               <li><a href="advanced Search.html">advanced Search</a></li>
+               <li><a href="#"><img src="images/img/bars.png"></a></li> 
+               <li><a href="#"><img src="images/img/Google December.jpg" alt="" class="googletext1 googletext2"></a></li>
+             </ul>
+            <style>
+ul 
+ {
+  margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'arial', sans-serif;
+}
+section
+{
+ position: relative;
+ width: 100%;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ min-height: 100vh;
+} 
+section header
+{
+   position: absolute;
+   top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;        
+} 
+section header ul
+{
+  display: flex;
+  justify-content: center;
+   align-items: center;
+} 
+section header ul li 
+{
+    list-style: none;  
+    margin-left: 20px;
+}
+section header ul li a
+{
+     color: rgb(34, 33, 33);
+     text-decoration: none;
+     font-size: 13px;
+}
+section header ul li button
+{
+   background-color: #4584ef;  
+   border: none; 
+   outline: none;
+   padding: 8px 14px;
+   color: rgb(27, 27, 27);
+   font-size: 14px;
+   font-weight: 700;
+   border-radius: 4px;
+   cursor: pointer;
+
+ 
+}
+
+ul
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+/*.googletext1{
+        width: 30%;
+        display: block;
+        margin: 0px auto;
+}*/
+.googletext2{
+         width: 400px;
+         position: absolute;
+         top: 200px;
+         left: 50%;
+         transform: translate(-50%,-50%);
+}
+
+
+#searchbarcontainer{
+  margin-top: 20px;
+  text-align: center;
+  color: rgb(37, 37, 37);
+}
+
+#searchbar {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    outline: 0;
+    width: 350px;
+    border-radius: 15px;
+    border: 1px solid #8d8d8d;
+}
+
+   
+  
+   #buttons {
+      margin-top: 30px;
+      display: flex;
+      justify-content: center;
+   }  
+
+   .button {
+      margin-left: 20px;
+      margin-right: 20px;
+      padding: 5px 10px;
+      cursor: pointer;
+      background: rgb(230, 230, 230);
+      border-radius: 3px;
+   }
+   
+
+
+
+            </style>     
+
+
+
+
+
+
+
+           </header>
+
+   
+   
+
+
+
+</html>
+
+<div class="main"></div>
+<div class="searchblox"></div>
+
+
+ 
+       
+ <div class="container">
+
+  <div id="searchbarcontainer">
+
+    <form action="https://images.google.com/"> 
+    <input id="searchbar" type="text" placeholder="image search " name="q"> 
+    <div id="buttons">
+    <div class="button">
+    <button type="submit"> image Search  
+   </div>
+   <div class="button">
+I'm Feeling Lucky
+   </div>
+   </form>
+   </div>
